@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "aguacate-hass",
+      "name": "Aguacate Hass",
+      "category": "Frutas Frescas",
+      "description": "Aguacate de calidad de exportación cultivado en suelo fértil del norte. Textura cremosa y sabor inigualable.",
+      "displayOrder": 0
+    },
+    {
+      "id": "mango-ataulfo",
+      "name": "Mango Ataulfo",
+      "category": "Frutas Frescas",
+      "description": "Mango dulce y aromático, cosechado en su punto óptimo de madurez para exportación internacional.",
+      "displayOrder": 1
+    },
+    {
+      "id": "limon-persa",
+      "name": "Limón Persa",
+      "category": "Cítricos",
+      "description": "Limón sin semilla de la más alta calidad, ideal para mercados gourmet y uso industrial.",
+      "displayOrder": 2
+    },
+    {
+      "id": "tomate-roma",
+      "name": "Tomate Roma",
+      "category": "Hortalizas",
+      "description": "Tomate firme y sabroso cultivado con técnicas agrícolas sostenibles para exportación.",
+      "displayOrder": 3
+    },
+    {
+      "id": "chile-serrano",
+      "name": "Chile Serrano",
+      "category": "Hortalizas",
+      "description": "Chile fresco de alta calidad con el nivel perfecto de picor para diversos mercados culinarios.",
+      "displayOrder": 4
+    }
+  ]
+}

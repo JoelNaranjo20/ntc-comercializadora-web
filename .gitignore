@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Production Build outputs
+dist/
+build/
+frontend/dist/
+
+# Environment files and credentials (CRITICAL)
+.env
+*.env
+*.env.local
+*.env.development
+*.env.production
+backend/.env
+
+# Uploads directory (preserve folder, ignore uploaded files)
+backend/uploads/gallery/*
+!backend/uploads/gallery/.gitkeep
+uploads/
+
+# Logs & Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.swp
+fix.js
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.user

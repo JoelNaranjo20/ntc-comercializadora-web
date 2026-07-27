@@ -1,0 +1,19 @@
+{
+  "name": "ntc-corporate-backend",
+  "version": "1.0.0",
+  "description": "Backend API for NTC Del Norte corporate website",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "NODE_ENV=production node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "sharp": "^0.33.5",
+    "uuid": "^10.0.0"
+  }
+}
