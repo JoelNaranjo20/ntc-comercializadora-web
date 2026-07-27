@@ -44,11 +44,13 @@ if (config.isProduction) {
 app.use(notFoundHandler);
 app.use(globalErrorHandler);
 
-// --------------- Start ---------------
-app.listen(config.port, () => {
-  console.log(`[NTC] Server running on http://localhost:${config.port}`);
-  console.log(`[NTC] Environment: ${config.env}`);
-  console.log(`[NTC] Uploads: ${config.paths.uploads}`);
-});
+// --------------- Start (Only if run directly) ---------------
+if (require.main === module) {
+  app.listen(config.port, () => {
+    console.log(`[NTC] Server running on http://localhost:${config.port}`);
+    console.log(`[NTC] Environment: ${config.env}`);
+    console.log(`[NTC] Uploads: ${config.paths.uploads}`);
+  });
+}
 
 module.exports = app;
