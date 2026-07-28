@@ -16,10 +16,8 @@ frontend/dist/
 *.env.production
 backend/.env
 
-# Uploads directory (preserve folder, ignore uploaded files)
-backend/uploads/gallery/*
-!backend/uploads/gallery/.gitkeep
-uploads/
+# Uploads directory
+# backend/uploads/gallery/ tracked for production deployment
 
 # Logs & Temporary files
 *.log
